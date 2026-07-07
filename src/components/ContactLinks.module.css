@@ -1,0 +1,64 @@
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.875rem 1.25rem;
+}
+
+.secondaryLinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+}
+
+.textLink {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.textLink:hover {
+  color: var(--accent-cyan);
+}
+
+.textLink:focus-visible {
+  color: var(--accent-cyan);
+}
+
+.unconfigured {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  cursor: not-allowed;
+}
+
+.inlineList,
+.footerList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  gap: 1.25rem;
+}
+
+.footerList {
+  gap: 1.25rem;
+}
+
+.inlineLink,
+.footerLink {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.inlineLink:hover,
+.footerLink:hover {
+  color: var(--accent-cyan);
+}
+
+.inlineLink:focus-visible,
+.footerLink:focus-visible {
+  color: var(--accent-cyan);
+}

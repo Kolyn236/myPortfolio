@@ -1,0 +1,29 @@
+.wrapper {
+  background: var(--gradient-subtle);
+  border-top: 1px solid var(--border);
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.check {
+  color: var(--accent-cyan);
+  flex-shrink: 0;
+}
