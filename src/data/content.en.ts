@@ -144,7 +144,7 @@ export const contentEn: LocalizedContent = {
       'I care about production behavior, not just clean code.',
       'I prefer simple architecture that can be explained and debugged at 2 a.m.',
       'I like measurable improvements: faster queries, better logs, safer releases.',
-      'I use AI tools aggressively, but with human review gates and quality checks.',
+      'I use AI tools deliberately, but keep architecture, review, and production quality under human control.',
       'I am comfortable with legacy code when there is a clear path to improve it.',
     ],
   },
