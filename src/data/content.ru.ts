@@ -37,7 +37,7 @@ export const contentRu: LocalizedContent = {
       'Открыт к full-time ролям, контракту/B2B и отдельным проектам разработки',
   },
   navItems: [
-    { label: 'Что я приношу', href: '#what-i-bring' },
+    { label: 'Чем я полезен', href: '#what-i-bring' },
     { label: 'Опыт', href: '#experience' },
     { label: 'Лидерство', href: '#leadership' },
     { label: 'AI', href: '#ai' },
@@ -48,7 +48,7 @@ export const contentRu: LocalizedContent = {
     portraitAlt: 'Николай Дычков, Senior Backend / Full Stack инженер',
   },
   whatIBring: {
-    label: 'Что я приношу',
+    label: 'Чем я полезен',
     title: 'Инженерия для продакшена, а не для слайдов',
     subtitle:
       'Senior Backend / Full Stack — от архитектуры и баз данных до интеграций и разработки с AI.',
