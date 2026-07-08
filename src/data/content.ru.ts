@@ -121,6 +121,13 @@ export const contentRu: LocalizedContent = {
         ],
         tag: 'Data',
       },
+      {
+        domain: 'Личные проекты и доставка',
+        highlights: [
+          'Настроил автоматический деплой Vite-лендинга через GitHub Actions: сборка production build и доставка папки `dist` на хостинг по SSH/rsync.',
+        ],
+        tag: 'Delivery',
+      },
     ],
   },
   leadership: {
@@ -144,6 +151,7 @@ export const contentRu: LocalizedContent = {
       'Мне важно поведение в проде, а не только чистый код.',
       'Предпочитаю простую архитектуру, которую можно объяснить и отладить в 2 часа ночи.',
       'Люблю измеримые улучшения: быстрее запросы, лучше логи, безопаснее релизы.',
+      'Люблю простые и надёжные пайплайны доставки: собрать, проверить, задеплоить и сделать процесс повторяемым.',
       'Использую AI-инструменты осознанно, но держу архитектуру, ревью и качество под инженерным контролем.',
       'Комфортно работаю с legacy, когда есть понятный путь улучшения.',
     ],
@@ -183,7 +191,19 @@ export const contentRu: LocalizedContent = {
     categories: {
       backend: ['PHP', 'Symfony', 'Doctrine', 'REST APIs', 'Laravel basics'],
       databases: ['PostgreSQL', 'MySQL', 'Indexes', 'EXPLAIN', 'Query optimization'],
-      infrastructure: ['Docker', 'Linux', 'Nginx', 'CI/CD', 'Redis', 'RabbitMQ', 'OpenSearch'],
+      infrastructure: [
+        'Docker',
+        'Linux',
+        'Nginx',
+        'GitHub Actions',
+        'CI/CD',
+        'деплой по SSH',
+        'rsync',
+        'production build',
+        'Redis',
+        'RabbitMQ',
+        'OpenSearch',
+      ],
       quality: ['PHPUnit', 'Codeception', 'PHPStan', 'Psalm', 'Xdebug', 'Profiling'],
       expanding: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'AWS/GCP', 'AI agents'],
     },

@@ -121,6 +121,13 @@ export const contentEn: LocalizedContent = {
         ],
         tag: 'Data',
       },
+      {
+        domain: 'Personal projects & delivery',
+        highlights: [
+          'Set up automated deployment for a Vite landing page using GitHub Actions: production build generation and delivery of the `dist` folder to hosting via SSH/rsync.',
+        ],
+        tag: 'Delivery',
+      },
     ],
   },
   leadership: {
@@ -144,6 +151,7 @@ export const contentEn: LocalizedContent = {
       'I care about production behavior, not just clean code.',
       'I prefer simple architecture that can be explained and debugged at 2 a.m.',
       'I like measurable improvements: faster queries, better logs, safer releases.',
+      'I like small, reliable delivery pipelines: build, verify, deploy, and keep the process repeatable.',
       'I use AI tools deliberately, but keep architecture, review, and production quality under human control.',
       'I am comfortable with legacy code when there is a clear path to improve it.',
     ],
@@ -183,7 +191,19 @@ export const contentEn: LocalizedContent = {
     categories: {
       backend: ['PHP', 'Symfony', 'Doctrine', 'REST APIs', 'Laravel basics'],
       databases: ['PostgreSQL', 'MySQL', 'Indexes', 'EXPLAIN', 'Query optimization'],
-      infrastructure: ['Docker', 'Linux', 'Nginx', 'CI/CD', 'Redis', 'RabbitMQ', 'OpenSearch'],
+      infrastructure: [
+        'Docker',
+        'Linux',
+        'Nginx',
+        'GitHub Actions',
+        'CI/CD',
+        'SSH deploy',
+        'rsync',
+        'Vite build pipeline',
+        'Redis',
+        'RabbitMQ',
+        'OpenSearch',
+      ],
       quality: ['PHPUnit', 'Codeception', 'PHPStan', 'Psalm', 'Xdebug', 'Profiling'],
       expanding: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'AWS/GCP', 'AI agents'],
     },
