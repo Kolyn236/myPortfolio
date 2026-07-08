@@ -28,7 +28,7 @@ export const contentRu: LocalizedContent = {
     valueLine:
       'Делаю надёжные backend-системы, продуктовые процессы и AI-assisted инструменты с фокусом на качество, поддержку и продакшен.',
     proofLine:
-      '9+ лет в PHP/Symfony, PostgreSQL, Docker, observability, healthcare и e-commerce проектах.',
+      '9+ лет в PHP/Symfony, PostgreSQL, Docker, observability, healthcare и e-commerce проектах. E-commerce опыт: каталоги, заказы, интеграции, доработка платформ и модернизация legacy PHP.',
     leadershipLine:
       'Расту в сторону Tech Lead с фокусом на код, архитектуру и качество: понятные ожидания, контрольные точки ревью и помощь команде без режима спасателя.',
     locationLine:
@@ -97,7 +97,7 @@ export const contentRu: LocalizedContent = {
       {
         domain: 'E-commerce продуктовые системы',
         highlights: [
-          'Каталог, интеграции и процессы заказов',
+          'Работал с legacy PHP и e-commerce платформами: X-Cart, CS-Cart, WordPress, CodeIgniter, Yii/Yii2 и Slim. Занимался интеграциями, поддержкой каталогов/заказов и постепенной модернизацией старого кода.',
           'Крупный e-commerce, включая GlassesUSA.com',
           'Интеграции с внешними API и отчётные пайплайны',
         ],
@@ -197,6 +197,12 @@ export const contentRu: LocalizedContent = {
         'Laravel basics',
         'интеграции API',
         'консольные команды',
+        'X-Cart',
+        'CS-Cart',
+        'WordPress',
+        'CodeIgniter 3',
+        'Yii/Yii2',
+        'Slim',
       ],
       databases: [
         'PostgreSQL',

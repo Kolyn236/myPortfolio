@@ -28,7 +28,7 @@ export const contentEn: LocalizedContent = {
     valueLine:
       'I build reliable backend systems, product workflows, and AI-assisted tools with a focus on quality, maintainability, and production behavior.',
     proofLine:
-      '9+ years in PHP/Symfony, PostgreSQL, Docker, observability, healthcare, and e-commerce systems.',
+      '9+ years in PHP/Symfony, PostgreSQL, Docker, observability, healthcare, and e-commerce systems. E-commerce background: catalog/order workflows, integrations, CMS/platform customization, and legacy PHP modernization.',
     leadershipLine:
       'Growing into hands-on Tech Lead work — clarity, review gates, and helping teams ship without hero mode.',
     locationLine:
@@ -97,7 +97,7 @@ export const contentEn: LocalizedContent = {
       {
         domain: 'E-commerce product systems',
         highlights: [
-          'Product catalog, integrations, and order-related workflows',
+          'Worked with legacy PHP and e-commerce platforms including X-Cart, CS-Cart, WordPress, CodeIgniter, Yii/Yii2, and Slim — building integrations, maintaining catalog/order workflows, and modernizing older codebases.',
           'Large-scale e-commerce, including GlassesUSA.com',
           'Third-party API integrations and reporting pipelines',
         ],
@@ -197,6 +197,12 @@ export const contentEn: LocalizedContent = {
         'Laravel basics',
         'API integrations',
         'CLI commands',
+        'X-Cart',
+        'CS-Cart',
+        'WordPress',
+        'CodeIgniter 3',
+        'Yii/Yii2',
+        'Slim',
       ],
       databases: [
         'PostgreSQL',
