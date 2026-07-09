@@ -262,6 +262,18 @@ export const contentEn: LocalizedContent = {
       ],
     },
   },
+  education: {
+    label: 'Education',
+    title: 'Education & technical foundation',
+    text: 'I hold a Specialist degree from Ulyanovsk State University in Mathematical Support and Administration of Information Systems. This background gave me a strong foundation in programming, systems thinking, data models, and information systems — the kind of base I still use in backend architecture, databases, integrations, and production debugging.',
+    bullets: [
+      'Specialist degree',
+      'Mathematical Support',
+      'Information Systems Administration',
+      'Backend architecture and data models',
+      'Systems thinking for production debugging',
+    ],
+  },
   openTo: {
     label: 'Open to',
     title: 'Where I fit best',

@@ -6,6 +6,7 @@ import { Leadership } from './components/Leadership'
 import { EngineeringStyle } from './components/EngineeringStyle'
 import { AIDirection } from './components/AIDirection'
 import { TechStack } from './components/TechStack'
+import { Education } from './components/Education'
 import { OpenTo } from './components/OpenTo'
 import { FinalCTA } from './components/FinalCTA'
 import { Footer } from './components/Footer'
@@ -28,6 +29,7 @@ function App() {
         <EngineeringStyle />
         <AIDirection />
         <TechStack />
+        <Education />
         <OpenTo />
         <FinalCTA />
       </main>

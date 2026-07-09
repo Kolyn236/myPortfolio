@@ -107,6 +107,12 @@ export type LocalizedContent = {
     }
     categories: TechStackCategories
   }
+  education: {
+    label: string
+    title: string
+    text: string
+    bullets: readonly string[]
+  }
   openTo: {
     label: string
     title: string
