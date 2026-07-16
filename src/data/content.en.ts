@@ -107,6 +107,7 @@ export const contentEn: LocalizedContent = {
         domain: 'Legacy modernization',
         highlights: [
           'Symfony framework migrations and Dockerization',
+          'Used Blackfire to profile existing PHP applications and investigate performance bottlenecks.',
           'Investigated production performance issues, profiled existing applications, and fixed memory/performance bottlenecks without rewriting systems from scratch.',
           'Refactoring large codebases with PHPStan, Psalm, and test coverage',
           'Incremental improvements without big-bang rewrites',
@@ -236,6 +237,7 @@ export const contentEn: LocalizedContent = {
         'PHPStan',
         'Psalm',
         'Xdebug',
+        'Blackfire',
         'Profiling',
         'Memory leak investigation',
         'Performance debugging',
