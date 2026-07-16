@@ -107,6 +107,7 @@ export const contentEn: LocalizedContent = {
         domain: 'Legacy modernization',
         highlights: [
           'Symfony framework migrations and Dockerization',
+          'Investigated production performance issues, profiled existing applications, and fixed memory/performance bottlenecks without rewriting systems from scratch.',
           'Refactoring large codebases with PHPStan, Psalm, and test coverage',
           'Incremental improvements without big-bang rewrites',
         ],
@@ -149,6 +150,7 @@ export const contentEn: LocalizedContent = {
     quoteSuffix: ', not demos that look good in a README.',
     points: [
       'I care about production behavior, not just clean code.',
+      'I profile existing applications, investigate memory leaks, and work through performance bottlenecks in production and legacy systems.',
       'I prefer simple architecture that can be explained and debugged at 2 a.m.',
       'I like measurable improvements: faster queries, better logs, safer releases.',
       'I like small, reliable delivery pipelines: build, verify, deploy, and keep the process repeatable.',
@@ -235,6 +237,9 @@ export const contentEn: LocalizedContent = {
         'Psalm',
         'Xdebug',
         'Profiling',
+        'Memory leak investigation',
+        'Performance debugging',
+        'Production troubleshooting',
         'Code review',
         'Static analysis',
       ],
