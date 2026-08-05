@@ -12,7 +12,7 @@ export const contact = {
   /** Full URL, e.g. https://linkedin.com/in/yourname */
   linkedin: 'https://www.linkedin.com/in/ndychkov/',
   /** Full URL to CV PDF or hosted resume */
-  cv: 'https://ndychkov.com',
+  cv: '/Nikolay_Dychkov_CV.pdf',
 } as const
 
 export type ContactKey = keyof typeof contact
