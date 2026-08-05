@@ -160,21 +160,17 @@ export const contentRu: LocalizedContent = {
   },
   aiDirection: {
     label: 'AI направление',
-    title: 'AI как практический инструмент, не громкое обещание',
+    title: 'AI как практический инструмент',
     intro:
       'Практичная AI-assisted инженерия — AI-инструменты для декомпозиции, ревью, документации, рутинной автоматизации и более быстрой доставки. Ревью человеком и качество в проде остаются под инженерным контролем.',
     points: [
       {
         title: 'AI-assisted разработка',
-        text: 'Структурированные промпты, контроль ревью и static analysis вместе с Cursor и Claude Code — скорость без пропуска проверок качества.',
+        text: 'Структурированные промпты, контроль ревью и статический анализ вместе с Cursor и Claude Code — скорость без пропуска проверок качества.',
       },
       {
         title: 'Автоматизация с участием инженера',
         text: 'AI ускоряет рутину в продукте и инженерии; архитектуру, ревью и то, что попадает в прод, по-прежнему контролируют инженеры.',
-      },
-      {
-        title: 'Агент для поиска работы',
-        text: 'Личный проект: агент, который собирает вакансии, помогает с откликами и автоматизирует рутину поиска работы.',
       },
     ],
   },
@@ -196,8 +192,6 @@ export const contentRu: LocalizedContent = {
         'Symfony',
         'Doctrine',
         'REST APIs',
-        'интеграции API',
-        'консольные команды',
         'Laravel',
         'X-Cart',
         'CS-Cart',
@@ -211,11 +205,10 @@ export const contentRu: LocalizedContent = {
       databases: [
         'PostgreSQL',
         'MySQL',
-        'индексы',
-        'EXPLAIN',
-        'оптимизация запросов',
+        'MongoDb',
         'Doctrine DBAL',
-        'импорт данных',
+        'Eloquent',
+        'ClickHouse'
       ],
       infrastructure: [
         'Docker',
@@ -224,11 +217,12 @@ export const contentRu: LocalizedContent = {
         'GitHub Actions',
         'GitLab CI/CD',
         'CI/CD',
-        'деплой по SSH',
-        'rsync',
         'Redis',
         'RabbitMQ',
         'OpenSearch',
+        'New Relic',
+        'Sentry',
+        'Graylog'
       ],
       quality: [
         'PHPUnit',
@@ -236,12 +230,8 @@ export const contentRu: LocalizedContent = {
         'PHPStan',
         'Psalm',
         'Xdebug',
-        'профилирование',
-        'поиск утечек памяти',
-        'отладка производительности',
-        'production troubleshooting',
-        'ревью кода',
-        'статический анализ',
+        'XHProof',
+        'Blackfire'
       ],
       expanding: [
         'React',
@@ -270,7 +260,7 @@ export const contentRu: LocalizedContent = {
     label: 'Открыт к',
     title: 'Где я лучше всего подхожу',
     subtitle:
-      'Удалённая работа с международными командами. Открыт к full-time ролям, контракту/B2B и отдельным проектам разработки на заказ.',
+      'Удалённая работа с Русскоязычными и международными командами. Открыт к full-time ролям, контракту/B2B и отдельным проектам разработки на заказ.',
     items: [
       'Senior Backend / Full Stack роли',
       'Tech Lead / Team Lead роли с фокусом на код и качество',

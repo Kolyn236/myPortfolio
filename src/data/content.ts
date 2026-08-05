@@ -10,7 +10,7 @@ export const contact = {
   /** Full URL, e.g. https://github.com/yourname */
   github: 'https://github.com/Kolyn236',
   /** Full URL, e.g. https://linkedin.com/in/yourname */
-  linkedin: 'https://www.linkedin.com/in/nikolay-dychkov-7a281a3bb/',
+  linkedin: 'https://www.linkedin.com/in/ndychkov/',
   /** Full URL to CV PDF or hosted resume */
   cv: 'https://ndychkov.com',
 } as const
