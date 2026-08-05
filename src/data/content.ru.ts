@@ -190,7 +190,6 @@ export const contentRu: LocalizedContent = {
       backend: [
         'PHP',
         'Symfony',
-        'Doctrine',
         'REST APIs',
         'Laravel',
         'X-Cart',
@@ -218,11 +217,13 @@ export const contentRu: LocalizedContent = {
         'GitLab CI/CD',
         'CI/CD',
         'Redis',
-        'RabbitMQ',
+        'Memcached',
         'OpenSearch',
         'New Relic',
         'Sentry',
-        'Graylog'
+        'Graylog',
+        'Kafka',
+        'RabbitMQ'
       ],
       quality: [
         'PHPUnit',
