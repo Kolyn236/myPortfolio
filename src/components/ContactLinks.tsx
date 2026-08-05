@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import { contact as contactLinks } from '../data/content'
-import { useContent } from '../context/LanguageContext'
-import { getExternalHref, getMailtoHref } from '../lib/contacts'
+import { useContent, useLanguage } from '../context/LanguageContext'
+import { getCvHref, getExternalHref, getMailtoHref } from '../lib/contacts'
 import { ExternalLink } from './ExternalLink'
 import styles from './ContactLinks.module.css'
 
@@ -60,6 +60,7 @@ export function ContactLinks({
   primaryLabel,
   primaryClassName = 'btn btn-primary',
 }: ContactLinksProps) {
+  const { locale } = useLanguage()
   const { contact } = useContent()
   const resolvedPrimaryLabel = primaryLabel ?? contact.primaryLabel
 
@@ -69,6 +70,11 @@ export function ContactLinks({
     { key: 'cv' as const, label: contact.cv },
   ]
 
+  function getChannelHref(key: 'linkedin' | 'github' | 'cv'): string | null {
+    if (key === 'cv') return getCvHref(locale)
+    return getExternalHref(key)
+  }
+
   if (variant === 'hero') {
     return (
       <div className={styles.heroActions}>
@@ -77,7 +83,7 @@ export function ContactLinks({
           {externalChannels
             .filter((ch) => ch.key !== 'linkedin')
             .map(({ key, label }) => {
-              const href = getExternalHref(key)
+              const href = getChannelHref(key)
               if (!href) {
                 return <UnconfiguredLink key={key} label={label} />
               }
@@ -101,7 +107,7 @@ export function ContactLinks({
         <EmailLink linkClassName={linkClass}>{contactLinks.email}</EmailLink>
       </li>
       {externalChannels.map(({ key, label }) => {
-        const href = getExternalHref(key)
+        const href = getChannelHref(key)
         return (
           <li key={key}>
             {href ? (

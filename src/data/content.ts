@@ -11,8 +11,10 @@ export const contact = {
   github: 'https://github.com/Kolyn236',
   /** Full URL, e.g. https://linkedin.com/in/yourname */
   linkedin: 'https://www.linkedin.com/in/ndychkov/',
-  /** Full URL to CV PDF or hosted resume */
-  cv: '/Nikolay_Dychkov_CV.pdf',
+  /** Full URL to CV PDF or hosted resume (English) */
+  cvEn: '/Nikolay_Dychkov_CV_en.pdf',
+  /** Full URL to CV PDF or hosted resume (Russian) */
+  cvRu: '/Nikolay_Dychkov_CV_ru.pdf',
 } as const
 
 export type ContactKey = keyof typeof contact

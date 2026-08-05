@@ -18,7 +18,7 @@ Open [http://localhost:5173](http://localhost:5173).
 - `contact.email` — your email (without `mailto:`)
 - `contact.github` — full GitHub URL
 - `contact.linkedin` — full LinkedIn URL
-- `contact.cv` — full URL to your CV
+- `contact.cvEn` / `contact.cvRu` — full URLs to your CV (English / Russian)
 
 Links stay disabled until placeholders are replaced (no broken `mailto:[PUT_EMAIL_HERE]`).
 
