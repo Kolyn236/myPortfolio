@@ -178,7 +178,7 @@ export const contentRu: LocalizedContent = {
     label: 'Технологии',
     title: 'Что знаю хорошо — и куда расту',
     subtitle:
-      'Сильный backend и инфраструктура. Развиваю практические навыки AI/LLM engineering и расширяю full stack: React, TypeScript, Node.js.',
+      'Сильный backend и инфраструктура. Расширяю full stack: React, TypeScript, Node.js.',
     categoryLabels: {
       backend: 'Backend',
       ai: 'AI / LLM Engineering',
