@@ -182,7 +182,7 @@ export const contentEn: LocalizedContent = {
     label: 'Tech stack',
     title: "Tools I know — and tools I'm growing into",
     subtitle:
-      'Strong in backend and infrastructure. Building practical AI/LLM engineering skills and expanding full stack with React, TypeScript, and Node.js.',
+      'Strong in backend and infrastructure. Expanding full stack surface with React, TypeScript, and Node.js.',
     categoryLabels: {
       backend: 'Backend',
       ai: 'AI / LLM Engineering',
