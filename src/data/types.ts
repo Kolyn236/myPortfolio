@@ -24,6 +24,7 @@ export type AiPoint = {
 
 export type TechStackCategories = {
   backend: readonly string[]
+  ai: readonly string[]
   databases: readonly string[]
   infrastructure: readonly string[]
   quality: readonly string[]
@@ -100,6 +101,7 @@ export type LocalizedContent = {
     subtitle: string
     categoryLabels: {
       backend: string
+      ai: string
       databases: string
       infrastructure: string
       quality: string

@@ -7,6 +7,7 @@ export function TechStack() {
 
   const entries = [
     { key: 'backend', items: categories.backend },
+    { key: 'ai', items: categories.ai },
     { key: 'databases', items: categories.databases },
     { key: 'infrastructure', items: categories.infrastructure },
     { key: 'quality', items: categories.quality },
