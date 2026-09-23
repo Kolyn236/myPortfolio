@@ -224,6 +224,8 @@ export const contentEn: LocalizedContent = {
         'Human-in-the-loop',
         'Context engineering',
         'AI observability',
+        'AI harnesses',
+        'Hermes',
       ],
       databases: [
         'PostgreSQL',
