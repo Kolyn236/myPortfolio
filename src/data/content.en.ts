@@ -83,7 +83,7 @@ export const contentEn: LocalizedContent = {
     label: 'Selected experience',
     title: "Domains where I've shipped real work",
     subtitle:
-      'Healthcare, e-commerce, legacy systems, and data-heavy products — always with production responsibility.',
+      'Healthcare, e-commerce, payment integrations, blockchain, legacy systems, and data-heavy products — always with production responsibility.',
     items: [
       {
         domain: 'Healthcare & internal services',
@@ -102,6 +102,24 @@ export const contentEn: LocalizedContent = {
           'Third-party API integrations and reporting pipelines',
         ],
         tag: 'E-commerce',
+      },
+      {
+        domain: 'Payment integrations',
+        highlights: [
+          'Built dozens of e-commerce payment integrations, including Stripe, PayPal, Nochex, and custom payment providers.',
+          'Worked with payment APIs, callback/webhook flows, encryption, and incomplete or outdated provider documentation.',
+          'Troubleshot integration issues directly with clients and payment-provider support teams.',
+        ],
+        tag: 'Payments',
+      },
+      {
+        domain: 'Blockchain & non-custodial wallets',
+        highlights: [
+          'I am building ChainCourier, a multi-currency non-custodial wallet where seed material and other secrets stay client-side while Symfony acts as an API gateway.',
+          'Designed shared chain/network/asset abstractions and a capability registry so multiple blockchains can be integrated without coupling business logic to one network.',
+          'Worked on wallet generation and validation, network integrations including TRON, and safe handling of key material in the browser.',
+        ],
+        tag: 'Blockchain',
       },
       {
         domain: 'Legacy modernization',
